@@ -1,0 +1,47 @@
+*{
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  color: white;
+  user-select: None;
+  cursor: default;
+}
+
+body {
+  font-size: 18px;
+  font-family: sans-serif;
+  height: 100vh;
+  flex-direction: column;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image{
+  height:40vh;
+  width: 30vh;
+  border-radius: 15%;
+  cursor: pointer;
+
+}
+
+.image:hover{
+  opacity: 0.9;
+  transition: 0.2s;
+  box-shadow: 0 0 4px 10px rgba(42, 205, 255, 0.9);
+}
+
+h1{
+  text-align: center;
+  margin-top: 1rem;
+
+}
+.footer{
+  position: absolute;
+  right:32px;
+  bottom:32px;
+  opacity: 0.6;
+  color: gray;
+
+}
